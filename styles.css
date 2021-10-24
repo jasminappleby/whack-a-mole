@@ -1,8 +1,22 @@
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 body {
-    background-image: url("background.jpg");
+    background-image: url(img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.scoreboard {
+    padding-bottom: 20px;
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
 }
 
 .grid {
@@ -15,10 +29,10 @@ body {
 .square {
     width: 200px;
     height: 200px;
-    border: solid 1px black;
+    border: solid 1px rgb(105, 94, 41);
 }
 
 .mole {
-    background-image: url(resetti.png);
+    background-image: url(img/resetti.png);
     background-size: cover;
 }
