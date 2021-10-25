@@ -8,22 +8,20 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: grid;
+    justify-content: center;
 }
 
 .scoreboard {
     padding-bottom: 20px;
 }
 
-h1, h2 {
-    display: flex;
-    justify-content: center;
-}
-
 .grid {
     width: 606px;
     height: 606px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
 }
 
 .square {
