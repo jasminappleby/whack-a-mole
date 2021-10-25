@@ -1,6 +1,6 @@
 header {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 200px;
 }
 
 body {
@@ -10,6 +10,10 @@ body {
     background-position: center;
     display: grid;
     justify-content: center;
+}
+
+#score, #time-left {
+    padding-left: 89px;
 }
 
 .scoreboard {
